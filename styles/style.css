@@ -337,7 +337,7 @@ header .active a {
 }
 .team .team__photo-name {
     width: 100%;
-    height: 35px;
+    padding: 20px 0;
     background-color: black;
     position: absolute;
     bottom: 0;
@@ -394,8 +394,7 @@ header .active a {
 .subscribe .subscribe__input {
     max-width: 460px;
     width: 100%;
-    height: 66px;
-    padding: 30px;
+    padding: 23px;
     color: #2c2c2c;
     border: 0;
     border-radius: 5px;
@@ -405,7 +404,7 @@ header .active a {
     margin-left: 17px;
     max-width: 185px;
     width: 185px;
-    height: 66px;
+    padding: 20px 15px;
     text-align: center;
     background-color: #ff3b3b;
     border: 2px solid #ff3b3b;
