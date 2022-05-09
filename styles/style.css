@@ -1,9 +1,3 @@
-ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
 a {
     text-decoration: none;
     color: #000000;
@@ -123,18 +117,16 @@ header .active a {
 /*  Services  */
 
 .services {
-    padding: 110px 0 0 0;
+    padding: 110px 0 50px 0;
     background-color: white;
+
 }
 .services .container {
     border-bottom: 2px solid #e5e5e5;
-    padding-bottom: 110px;
 }
 .services .services__col {
     width: 50%;
-}
-.services .services__info {
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 .services .services__title {
     color: #585858;
@@ -163,7 +155,6 @@ header .active a {
 .services .services__examples {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 50px;
 }
 .services .services__example {
     width: 50%;
@@ -412,6 +403,7 @@ header .active a {
     font-weight: 700;
     font-size: 14px;
     text-transform: uppercase;
+    cursor: pointer;
 }
 .subscribe .subscribe__btn:hover {
     background-color: #f5f0dd;
@@ -455,8 +447,7 @@ header .active a {
 }
 
 .contact .contact__form {
-    max-width: 58.87%;
-    flex: 58.87%;
+    width: 55%;
 }
 .contact .contact__form-row {
     display: flex;
@@ -501,6 +492,7 @@ header .active a {
     border: 2px solid #ff3b3b;
     border-radius: 5px;
     text-transform: uppercase;
+    cursor: pointer;
 }
 .contact .contact__btn:hover {
     background-color: white;
